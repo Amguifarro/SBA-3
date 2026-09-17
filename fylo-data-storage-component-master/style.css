@@ -49,29 +49,29 @@ body {
   );
 }
 
-@media (max-width: 767px) {
-  body {
-    background-image: url("images/bg-mobile.png");
-    background-size: cover;
-    background-position: center;
-
-  .storage-remaining {
-      top: auto;
-      right: 50%;
-      bottom: -45px;
-      transform: translateX(50%);
-    }
-  
-  .storage-card {
-      margin-bottom: 45px;
-    }
-  }
-  
-}
-
-
 .storage-remaining {
   position: absolute;
   right: 24px;
   top: -45px;
 }
+
+@media (max-width: 767px) {
+  body {
+    background-image: url("images/bg-mobile.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .storage-remaining {
+    top: auto;
+    right: 50%;
+    bottom: -45px;
+    transform: translateX(50%);
+    }
+  
+  .storage-card {
+    margin-bottom: 45px;
+    }
+  
+  
+}
+
