@@ -17,3 +17,12 @@ body {
   background-color: hsl(228, 56%, 26%); 
   color: hsl(243, 100%, 93%);
 }
+
+.remaining-number {
+  font-size: 2.5rem;
+  color: hsl(229, 57%, 11%);
+}
+
+.remaining-text {
+  font-size: 0.75rem;
+  color: hsl(229, 7%, 55%);
