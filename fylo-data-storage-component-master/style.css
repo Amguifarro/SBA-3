@@ -12,3 +12,8 @@ body {
 .icon-box {
   background-color: hsl(229, 57%, 11%);
 }
+
+.storage-card {
+  background-color: hsl(228, 56%, 26%); 
+  color: hsl(243, 100%, 93%);
+}
