@@ -1,2 +1,10 @@
 .attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  background-color: hsl(229, 57%, 11%);
+}
+
+img {
+  background-color:  hsl(228, 56%, 26%);
+}
