@@ -3,7 +3,14 @@
 
 body {
   background-color: hsl(229, 57%, 11%);
-}
+  background-image: url("images/bg-desktop.png");
+  background-repeat: no-repeat;   
+  background-size: 100% 50%;
+  background-position: bottom;
+  min-height: 100vh;
+  font-size: 14px;
+  }
+
 .fylo-card {
   background-color: hsl(228, 56%, 26%);
   border-radius: 10px 100px 10px 10px;
@@ -16,7 +23,9 @@ body {
 .storage-card {
   background-color: hsl(228, 56%, 26%); 
   color: hsl(243, 100%, 93%);
+  position: relative;
 }
+
 
 .remaining-number {
   font-size: 2.5rem;
@@ -26,3 +35,43 @@ body {
 .remaining-text {
   font-size: 0.75rem;
   color: hsl(229, 7%, 55%);
+}
+
+.storage-progress {
+  background-color: hsl(229, 57%, 11%);
+}
+
+.progress-bar {
+  background: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+}
+
+@media (max-width: 767px) {
+  body {
+    background-image: url("images/bg-mobile.png");
+    background-size: cover;
+    background-position: center;
+
+  .storage-remaining {
+      top: auto;
+      right: 50%;
+      bottom: -45px;
+      transform: translateX(50%);
+    }
+  
+  .storage-card {
+      margin-bottom: 45px;
+    }
+  }
+  
+}
+
+
+.storage-remaining {
+  position: absolute;
+  right: 24px;
+  top: -45px;
+}
